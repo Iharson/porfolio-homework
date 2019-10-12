@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    padding: 3rem;
+    background: linear-gradient(to right bottom, rgba(126,213,111,0.8), rgba(40,180,133,0.8));
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header {
+}
+
+.my-photo {
+    float: left;
+    padding-right: 1rem;
+}
+
+h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 1.1rem;
+    padding-bottom: 1rem;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+}
+
+.education, .projects {
+    border-top: 3px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 1rem;
+}
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.collapsible:after {
+    content: '\02795';
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+}
+
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+
+.content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+h3 {
+    background-color: #eee;
+    color: #444;
+    padding: 18px;
+    text-align: left;
+    font-size: 15px;
+}
