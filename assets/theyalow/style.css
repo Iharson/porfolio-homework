@@ -2,6 +2,33 @@
     margin: 0;
     padding: 0;
 }
+#mobile{
+    position: fixed;
+    right: 5vh;
+    top: 20vh;
+    z-index: 5;
+    color: black;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    border: 5px solid red;
+}
+
+#back {
+    position: fixed;
+    right: 5vh;
+    top: 30vh;
+    z-index: 5;
+    width: 100px;
+    height: 40px;
+    border: 5px solid red;
+}
+
+#back>a, #mobile>a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
 
 .container {
     width: 1300px;
