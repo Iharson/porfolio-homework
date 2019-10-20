@@ -1,0 +1,812 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.header-main-wrapper {
+    background: url("assets/images/Layer 20.jpg");
+    background-size: 100%;
+}
+
+.header {
+    padding: 25px 140px 57px 140px;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    width: 83px;
+    height: 83px;
+    float: left;
+}
+
+.logo-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo-secondary {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+
+}
+
+h1 {
+    padding-left: 90px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 41px;
+    color: #ffffff;
+    font-family: "Lucida Sans", serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.nav-menu {
+    float: right;
+    margin-top: 38px;
+    position: absolute;
+    bottom: 55px;
+    right: 140px;
+    width: 453px;
+    height: 41px;
+    z-index: 1;
+}
+
+.nav-menu ul {
+    list-style: none;
+    overflow: hidden;
+    background: url("assets/images/main-menu-font.png") no-repeat;
+    padding-left: 20px;
+
+}
+
+.nav-menu ul li {
+    float: left;
+    padding: 6px 20px 10px 15px;
+    border-right: 1px solid #9b7d08;
+}
+
+.nav-menu ul li:last-child {
+    border: none;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #9b7d08;
+    font-family: "Segoe WP", serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav-menu ul li img {
+    padding-right: 5px;
+}
+
+.nav-secondary-font {
+    width: 453px;
+    height: 41px;
+    background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+    position: absolute;
+    bottom: 60px;
+    right: 145px;
+    opacity: 0.27;
+}
+
+.nav-third-font {
+    width: 453px;
+    height: 41px;
+    background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+    position: absolute;
+    bottom: 63px;
+    right: 149px;
+    opacity: 0.27;
+}
+
+.main {
+    padding: 0 140px 8px 140px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-left-button {
+    position: absolute;
+    top: calc(50% - 72px);
+    left: 0;
+}
+
+.slider-right-button {
+    position: absolute;
+    top: calc(50% - 80px);
+    right: 0;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 550px;
+    height: 327px;
+    display: inline-block;
+    float: left;
+    margin: 0 30px 70px 10px;
+
+}
+.video  {
+    background: url("assets/images/video-image.png") no-repeat;
+    background-size: 100%;
+    width: 550px;
+    height: 327px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.video-button {
+    width: 68px;
+    height:68px;
+    position: absolute;
+    top: calc(50% - 34px);
+    left: calc(50% - 34px)
+}
+
+.video-control-button {
+    position: absolute;
+    width: 27px;
+    height:27px;
+    bottom: 20px;
+    left: 30px;
+    opacity: .80;
+}
+
+.video-control-line {
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+}
+
+.video-control-sound {
+    position: absolute;
+    bottom: 22px;
+    right: 20px;
+}
+
+.video-text {
+    float: right;
+    padding-top: 80px;
+}
+
+.video-text h2 {
+      font-size: 61px;
+      letter-spacing: 1px;
+      color: #f5c506;
+      font-family: "Asap", serif;
+      font-weight: 400;
+      text-align: center;
+      text-transform: uppercase;
+  }
+
+.video-text h2:last-child {
+   color: white;
+}
+
+.icons-section {
+    padding: 37px 140px;
+    background: url("assets/images/icon-background.png");
+    overflow: hidden;
+}
+
+.icon {
+     float: left;
+     width: 30%;
+     margin-right: 5%;
+ }
+
+.icon:last-child {
+    float: left;
+    width: 30%;
+    margin: 0;
+}
+
+.icon img {
+    display: block;
+    margin: 0  auto;
+}
+
+.icon h4 {
+    text-align: center;
+    font-size: 27px;
+    color: #000000;
+    font-family: "Segoe UI", serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.yellow-section {
+    background: url("assets/images/yellow-background.png");
+    padding: 0  140px;
+}
+
+.yellow-section h3 {
+    font-size: 37px;
+    color: #ffffff;
+    font-family: "PT Sans", serif;
+    font-weight: 400;
+    padding-top: 35px;
+    text-transform: uppercase;
+}
+
+.yellow-content {
+    overflow: hidden;
+    margin-top: 31px;
+}
+
+.yellow-block {
+    height: 230px;
+    float: left;
+    width:32%;
+}
+
+#second {
+    background: url("assets/images/monkey-background.png") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.play-button img {
+    position: absolute;
+    top: calc(50% - 32px);
+    left: calc(50% - 32px);
+}
+
+.yellow-block:first-child {
+    background-color: #ec9e03;
+}
+
+.yellow-block:last-child {
+    background-color: #ec9e03;
+    margin-left: 4%;
+
+}
+
+.bird>img {
+    display: block;
+    margin: 60px auto 34px auto;
+}
+
+.yellow-block p {
+    font-size: 29px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP", serif;
+    font-weight: 300;
+    padding:20px 30px 0 25px;
+}
+
+.yellow-block a img{
+    display: block;
+    margin-right: 5px;
+    float: right;
+    padding-right: 15px;
+}
+
+.twitter {
+    display: none;
+}
+
+.date {
+    width:100px;
+    height: 85px;
+    background-color: #ddb101;
+}
+
+.date p {
+    text-align: center;
+}
+
+.date-digit {
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe UI", serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.date-month {
+    font-size: 21px;
+    line-height: 38px;
+    color: #b26529;
+    font-family: "Segoe UI", serif;
+    text-transform: uppercase;
+}
+
+.yellow-scroll {
+    padding-top: 40px;
+    padding-bottom: 27px;
+}
+
+.yellow-scroll img{
+    display: block;
+    margin: 0 auto;
+}
+
+.gray-section {
+    padding: 45px 140px 86px 140px;
+    background: url("assets/images/gray-background.png");
+    overflow: hidden;
+    position: relative;
+}
+
+.gray-section h3 {
+    font-size: 43px;
+    color: #f5c506;
+    font-family: "PT Sans", serif;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.computer {
+    float: left;
+}
+
+.computer img {
+    opacity: 0.57;
+    border-radius: 15px;
+    padding-left: 21px;
+}
+
+.feature {
+    float: left;
+    padding-left: 80px;
+    padding-top: 46px;
+}
+
+.feature ul  {
+    list-style: none;
+}
+
+.feature ul li {
+    width: 352px;
+    height: 58px;
+    font-size: 22px;
+    color: #a9a9a7;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+}
+
+.feature ul li img {
+    padding-right: 20px;
+}
+
+.eclipse {
+    position: absolute;
+    top: 95px;
+    left: 137px;
+}
+
+.computer-text {
+    position: absolute;
+    top: 147px;
+    left: 142px;
+}
+
+.computer-text p {
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "PT Sans Narrow", serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: #4c4c4c;
+    padding: 5px 140px;
+    overflow: hidden;
+    position: relative;
+    border-top: 2px solid black;
+}
+
+.footer-logo {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    float: left;
+}
+
+.footer-logo-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer-logo-secondary {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+}
+
+.footer-logo p {
+    padding-left: 60px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Lucida Sans", serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 29px;
+}
+
+
+/* Media 640px*/
+
+@media only screen and (max-width: 640px) {
+    .container {
+        width: 640px;
+        margin: 0 auto;
+    }
+    .header-main-wrapper {
+        background-size: 100%;
+        background: #4c4c4c;
+    }
+
+    .header {
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+        padding: 10px ;
+    }
+
+    .logo-main {
+        width: 40px;
+        height: 40px;
+        padding: 10px ;
+    }
+
+    .logo-secondary {
+        width: 40px;
+        height: 40px;;
+        opacity: 0.5;
+        padding: 10px ;
+    }
+
+    h1 {
+        font-size: 19px;
+        color: #ffffff;
+        font-family: "Lucida Sans", serif;
+        font-style: italic;
+        text-align: center;
+        padding-left: 48px;
+        margin-top: 8px;
+    }
+
+    .nav-menu {
+        float: right;
+        margin-top: 0;
+        position: initial;
+        height: 41px;
+        z-index: 1;
+    }
+
+    .nav-secondary-font {
+       display: none;
+    }
+
+    .nav-third-font {
+       display: none;
+    }
+
+    .main {
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .slider-left-button {
+        display: none;
+    }
+
+    .slider-right-button {
+      display: none;
+    }
+
+    .video-wrapper {
+        width: 100%;
+        margin: 0;
+
+    }
+    .video  {
+        background: url("assets/images/video-image.png") no-repeat;
+        background-size: 100%;
+        width: 640px;
+        height: 327px;
+        box-sizing: border-box;
+        float: left;
+    }
+
+    .video-control-button {
+        position: absolute;
+        width: 27px;
+        height:27px;
+        bottom: 30px;
+        left: 80px;
+        opacity: .80;
+    }
+
+    .video-control-line {
+        position: absolute;
+        bottom: 18px;
+        left: 138px;
+    }
+
+
+    .video-control-sound {
+        position: absolute;
+        bottom: 30px;
+        right: 55px;
+    }
+
+    .video-text {
+     display: none;
+    }
+
+    .icons-section {
+        padding: 20px 5px;
+        background: url("assets/images/icon-background.png");
+        overflow: hidden;
+    }
+
+    .yellow-section {
+        background: none;
+        padding: 0;
+    }
+
+    .yellow-section h3 {
+        display: none;
+    }
+
+    .yellow-content {
+        margin-top: 0;
+    }
+
+    #first {
+        width: 305px;
+        margin: 10px;
+    }
+    #second {
+        background: url("assets/images/monkey-background.png") no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 305px;
+        margin: 10px 10px 10px 0;
+    }
+
+    .play-button img {
+        position: absolute;
+        top: calc(50% - 32px);
+        left: calc(50% - 32px);
+    }
+
+    .yellow-block:last-child {
+        background-color: #f5c507;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .bird>img {
+        display: block;
+        margin: 48px 0 0 78px;
+    }
+
+    .yellow-block p {
+        font-size: 29px;
+        line-height: 38px;
+        color: #ffffff;
+        font-family: "Segoe WP", serif;
+        font-weight: 300;
+        padding-bottom: 10px;
+    }
+
+
+    .yellow-block a img {
+        display: block;
+        margin-right: 5px;
+        float: right;
+        padding-right: 15px;
+    }
+
+    #third a img {
+        display: none;
+    }
+
+    .date {
+        display: none;
+    }
+
+
+    .yellow-scroll {
+        display: none;
+    }
+
+    .yellow-scroll img{
+        display: none;
+    }
+
+    .bird {
+        float: left;
+    }
+
+    .twitter {
+        display: block;
+        margin-left: 320px;
+    }
+
+    .twitter-message {
+        background: url("assets/images/twitter.svg") no-repeat;
+        margin-top: 10px;
+    }
+
+    .twitter-message p {
+        display: block;
+        margin-left: 50px;
+        font-size: 13px;
+        color: #8f8e8e;
+        font-family: "Arial", serif;
+        line-height: 5px;
+        padding-top: 8px;
+    }
+
+    .twit {
+        margin-left: 10px;
+        margin-top: 18px;
+    }
+
+    .twit form {
+        margin: 10px 0;
+        border: 1px solid black;
+        border-radius: 15px;
+        width: 270px;
+    }
+
+    .text-field {
+        float: left;
+    }
+
+    .text-field input {
+        width: 100%;
+        font-size: 12px;
+        color: #7f7f7f;
+        padding: 10px 4px 11px 9px;
+        border-radius: 15px;
+    }
+
+    .twit input {
+        padding: 4px;
+        width: 188px;
+        font-size: 12px;
+        color: #81b300;
+        cursor: pointer;
+        border-radius: 15px 0 0 15px;
+        text-align: center;
+    }
+
+    #twit {
+        width: 70px;
+        background-color: #db9a17;
+        font-size: 15px;
+        color: #ffffff;
+        font-family: "Arial", serif;
+        border-radius: 0 15px  15px 0;
+    }
+
+    .gray-section {
+        padding: 0;
+    }
+
+    .gray-section h3 {
+        font-size: 37px;
+        color: #f5c506;
+        font-family: "PT Sans", serif;
+        font-weight: 400;
+        text-align: center;
+        padding: 33px 20px 72px 45px;
+    }
+
+    .computer {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .computer img {
+        margin: 0 auto;
+        opacity: 0.57;
+        border-radius: 15px;
+        padding: 4px 40px 50px 60px;
+    }
+
+    .feature {
+        display: none;
+    }
+
+
+    .eclipse {
+        position: absolute;
+        top: 115px;
+        left: 25px;
+    }
+
+    .computer-text {
+        position: absolute;
+        top: 165px;
+        left: 30px;
+    }
+
+    .computer-text p {
+        font-size: 15px;
+        color: #ffffff;
+        font-family: "PT Sans Narrow", serif;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .footer {
+        background-color: #4c4c4c;
+        padding: 5px 0 5px 65px;
+        overflow: hidden;
+        position: relative;
+        border-top: 2px solid black;
+    }
+
+    .footer-logo {
+        width: 30px;
+        height: 30px;
+        padding: 5px ;
+    }
+
+    .footer-logo-main {
+        width: 30px;
+        height: 30px;
+        padding: 5px ;
+    }
+
+    .footer-logo-secondary {
+        width: 30px;
+        height: 30px;
+        padding: 5px ;
+        opacity: 0.5;
+    }
+
+    .footer-logo p {
+        font-size: 17px;
+        color: #ffffff;
+        font-family: "Lucida Sans", serif;
+        font-style: italic;
+        text-align: center;
+        padding-left: 38px;
+        margin-top: 3px;
+    }
+}
+
+@font-face {
+    font-family: 'Segoe WP';
+    font-style: normal;
+    font-weight: normal;
+    src: url("assets/fonts/SegoeWP.woff");
+}
